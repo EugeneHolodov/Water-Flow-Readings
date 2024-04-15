@@ -1,0 +1,36 @@
+@import "./styles/fonts.css";
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+  font-size: calc(10px + 2vmin);
+}
+
+.conteiner {
+  margin: 0 auto;
+  padding: 25px;
+  min-height: 100vh;
+  max-width: 600px;
+  text-align: center;
+}
+
+.button {
+  margin: 0 auto;
+  background-color: #62cdfa;
+  color: #fff;
+  border-radius: 5px;
+  font-size: medium;
+  border: none;
+  padding: 14px 38px;
+  box-shadow: 4px 8px 32px #3190e8;
+}
+.button:hover {
+  background-color: #58c0f3;
+  box-shadow: 5px 10px 25px #3190e8;
+}
+

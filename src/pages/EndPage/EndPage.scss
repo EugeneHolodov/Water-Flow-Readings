@@ -1,0 +1,24 @@
+.end {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  &__conteiner {
+    padding: 25px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20vh;
+  }
+  &__pictAndTitle {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+  &__image {
+    width: 100%; 
+  }
+  &__title {
+    color: #625d5d;
+  }
+}
