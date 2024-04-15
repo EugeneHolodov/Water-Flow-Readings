@@ -118,9 +118,8 @@ function FormPage() {
   const postData = async (formData: IFormData): Promise<any> => {
     try {
       const response: AxiosResponse = await axios.post<FormData>(
-        // 'http://localhost:3005/submit',
         'https://water-tracker.azurewebsites.net/api/post-data-function',
-        formData
+        JSON.stringify(formData)
       );
       console.log('Response:', response.data);
       return response
